@@ -1,0 +1,22 @@
+# --- Build output ---
+build/
+dist/
+*.class
+*.jar
+
+# --- NetBeans private/local config ---
+nbproject/private/
+nbbuild/
+.nb-gradle/
+
+# --- Runtime-generated data (not source) ---
+Capture/
+attendance_logs.csv
+*.log
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
